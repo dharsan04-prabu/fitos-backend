@@ -17,8 +17,8 @@ from PIL import Image
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ── Paths ────────────────────────────────────────────────
-MODEL_PATH    = os.path.join(BASE_DIR, "../models/food_model.h5")
-CLASS_MAP_PATH = os.path.join(BASE_DIR, "../models/class_map.json")
+MODEL_PATH = os.path.join(BASE_DIR, "phase2_best.h5")
+CLASS_MAP_PATH = os.path.join(BASE_DIR, "class_map.json")
 DATASET_DIR   = os.path.join(BASE_DIR, "../Indian Food Images/Indian Food Images")
 
 # ── Load class list ──────────────────────────────────────
